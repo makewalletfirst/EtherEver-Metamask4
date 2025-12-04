@@ -12,7 +12,9 @@ node_modules/@metamask/controller-utils/dist/types.cjs <br>
 node_modules/@metamask/controller-utils/dist/types.mjs <br>
 의 체인id, 티커, 블록주소를 수정하면 맞춤형탭에서 인기탭으로 넘어오면서 아이콘까지 박힘 <br>
 인데 또해보니까 맞춤형으로 빠지고 체인명, 블록탐색기만 바뀌고 나머진 안되네<br>
-
+<br>
+<br>
+<br>
 
 
 vim app/components/UI/NetworkManager/index.tsx  <br>
