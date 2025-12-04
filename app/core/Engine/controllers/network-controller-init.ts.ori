@@ -43,7 +43,6 @@ export function getInitialNetworkControllerState(persistedState: {
       ChainId.mainnet
     ].rpcEndpoints[0].failoverUrls =
       ['http://163.239.27.33:4553'];
-
     initialNetworkControllerState.networkConfigurationsByChainId[
       ChainId['linea-mainnet']
     ].rpcEndpoints[0].failoverUrls =
@@ -235,8 +234,13 @@ export const networkControllerInit: ControllerInitFunction<
 
   // TODO: Move this to `network-controller`
   const toggleRpcFailover = (isRpcFailoverEnabled: Json) => {
-      Logger.log('Enabling RPC failover (FORCED).');
+    if (isRpcFailoverEnabled) {
+      Logger.log('Enabling RPC failover.');
       controller.enableRpcFailover();
+    } else {
+      Logger.log('Disabling RPC failover.');
+      controller.disableRpcFailover();
+    }
   };
 
   initMessenger.subscribe(

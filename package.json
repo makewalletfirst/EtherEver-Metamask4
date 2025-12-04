@@ -728,7 +728,7 @@
       "esbuild": false
     }
   },
-  "packageManager": "yarn@4.10.3",
+  "packageManager": "yarn@4.12.0",
   "foundryup": {
     "binaries": [
       "anvil"

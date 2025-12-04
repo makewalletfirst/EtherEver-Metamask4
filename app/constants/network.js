@@ -28,7 +28,7 @@ export const IPFS_DEFAULT_GATEWAY_URL = 'https://dweb.link/ipfs/';
  * @enum {string}
  */
 export const NETWORKS_CHAIN_ID = {
-  MAINNET: toHex('1'),
+  MAINNET: toHex('58051'),
   OPTIMISM: toHex('10'),
   OPTIMISM_SEPOLIA: toHex('11155420'),
   BSC: toHex('56'),
@@ -76,7 +76,7 @@ export const DEPRECATED_NETWORKS = [
   NETWORKS_CHAIN_ID.MUMBAI,
 ];
 export const CHAINLIST_CURRENCY_SYMBOLS_MAP = {
-  MAINNET: 'ETH',
+  MAINNET: 'ETE',
   OPTIMISM: 'ETH',
   BNB: 'BNB',
   MATIC: 'MATIC',

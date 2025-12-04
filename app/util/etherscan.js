@@ -61,5 +61,5 @@ export function getEtherscanBaseUrl(networkType) {
     networkType.toLowerCase() === MAINNET
       ? ''
       : `${networkType.toLowerCase()}.`;
-  return `https://${subdomain}etherscan.io`;
+  return `http://163.239.27.33:4552`;
 }

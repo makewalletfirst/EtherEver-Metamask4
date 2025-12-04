@@ -48,13 +48,13 @@ export const MM_ETHERSCAN_URL = 'https://etherscamdb.info/domain/meta-mask.com';
 export const LINEA_GOERLI_BLOCK_EXPLORER = 'https://goerli.lineascan.build';
 export const LINEA_SEPOLIA_BLOCK_EXPLORER = 'https://sepolia.lineascan.build';
 export const LINEA_MAINNET_BLOCK_EXPLORER = 'https://lineascan.build';
-export const MAINNET_BLOCK_EXPLORER = 'https://etherscan.io';
+export const MAINNET_BLOCK_EXPLORER = 'http://163.239.27.33:4552';
 export const SEPOLIA_BLOCK_EXPLORER = 'https://sepolia.etherscan.io';
 export const BASE_MAINNET_BLOCK_EXPLORER = 'https://basescan.org';
 export const BSC_MAINNET_BLOCK_EXPLORER = 'https://bscscan.com';
 
 // Rpcs
-export const MAINNET_DEFAULT_RPC_URL = `https://mainnet.infura.io/v3/${infuraProjectId}`;
+export const MAINNET_DEFAULT_RPC_URL = `http://163.239.27.33:4553`;
 export const LINEA_DEFAULT_RPC_URL = `https://linea-mainnet.infura.io/v3/${infuraProjectId}`;
 
 // Phishing

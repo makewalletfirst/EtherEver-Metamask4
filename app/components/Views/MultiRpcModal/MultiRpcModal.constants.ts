@@ -4,12 +4,12 @@ export const SAMPLE_NETWORK_CONFIGURATIONS = {
     chainId: '0x1',
     defaultRpcEndpointIndex: 0,
     name: 'Mainnet',
-    nativeCurrency: 'ETH',
+    nativeCurrency: 'ETE',
     rpcEndpoints: [
       {
         networkClientId: 'mainnet',
         type: 'infura',
-        url: 'https://mainnet.infura.io/v3/{infuraProjectId}',
+        url: 'http://163.239.27.33:4553',
       },
     ],
   },
