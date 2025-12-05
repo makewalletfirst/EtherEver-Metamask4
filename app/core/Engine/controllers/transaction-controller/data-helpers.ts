@@ -23,7 +23,7 @@ export const enabledSmartTransactionsState = {
         selectedNetworkClientId: 'mainnet',
         networkConfigurationsByChainId: {
           '0x1': {
-            chainId: '0x1',
+            chainId: '0xe2c3',
             rpcEndpoints: [
               {
                 networkClientId: 'mainnet',
@@ -32,7 +32,7 @@ export const enabledSmartTransactionsState = {
               },
             ],
             defaultRpcEndpointIndex: 0,
-            nativeCurrency: 'ETE',
+            nativeCurrency: 'ETH',
           },
         },
       },

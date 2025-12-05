@@ -211,7 +211,7 @@ const NetworkSelector = () => {
     isReadOnly: boolean;
   }>({
     isVisible: false,
-    chainId: '0x1',
+    chainId: '0xe2c3',
     displayEdit: false,
     networkTypeOrRpcUrl: '',
     isReadOnly: false,
@@ -290,7 +290,7 @@ const NetworkSelector = () => {
 
   const closeModal = useCallback(() => {
     setNetworkMenuModal(() => ({
-      chainId: '0x1',
+      chainId: '0xe2c3',
       isVisible: false,
       displayEdit: false,
       networkTypeOrRpcUrl: '',

@@ -196,7 +196,7 @@ const mockStoreState = {
             rpcEndpoints: [
               {
                 networkClientId: 'mainnet',
-                url: 'https://mainnet.infura.io/v3/test',
+                url: 'http://163.239.27.33:4553',
                 type: 'infura',
               },
             ],

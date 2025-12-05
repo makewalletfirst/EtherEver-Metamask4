@@ -72,7 +72,7 @@ export function getInitialNetworkControllerState(persistedState: {
     // Update default popular network names
     initialNetworkControllerState.networkConfigurationsByChainId[
       ChainId.mainnet
-    ].name = 'Ethereum';
+    ].name = 'EtherEver';
     initialNetworkControllerState.networkConfigurationsByChainId[
       ChainId['linea-mainnet']
     ].name = 'Linea';

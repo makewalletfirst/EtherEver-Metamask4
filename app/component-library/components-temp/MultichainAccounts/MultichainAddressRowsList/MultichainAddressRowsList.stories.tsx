@@ -23,7 +23,7 @@ const createMockState = () => ({
               {
                 networkClientId: 'mainnet',
                 type: 'infura',
-                url: 'https://mainnet.infura.io/v3/{infuraProjectId}',
+                url: 'http://163.239.27.33:4553{infuraProjectId}',
               },
             ],
             defaultRpcEndpointIndex: 0,
