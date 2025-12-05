@@ -1,37 +1,8 @@
-인기 1순위 <br>
-티커 알피시 대체 <br>
-블록브라우저 체인아이디 <br>
-<br>
-이더에버 명칭바꿔야함 <br>
-암호 사이닝 키 파일들 재생성 <br>
-기본 이그잼플 cp 후 build.gradle 이름 맞추기 <br>
+그래도 대충 원빌드후 노드모듈은 손봐야할듯 <br>
 
-<br>
-원빌드 후 <br>
 node_modules/@metamask/controller-utils/dist/types.cjs <br>
 node_modules/@metamask/controller-utils/dist/types.mjs <br>
+여기 수정할떄 체인아이디랑 밑에 티커까지 함께 변경<br>
 의 체인id, 티커, 블록주소를 수정하면 맞춤형탭에서 인기탭으로 넘어오면서 아이콘까지 박힘 <br>
 인데 또해보니까 맞춤형으로 빠지고 체인명, 블록탐색기만 바뀌고 나머진 안되네<br>
-<br>
-<br>
-<br>
-
-
-vim app/components/UI/NetworkManager/index.tsx  <br>
-수정할 줄: 142번 줄, 276번 줄 (대략적인 위치)
-
-내용: chainId: '0x1' 이라고 된 부분을 찾아 chainId: '0xe2c3' 로 변경
-
-vim app/components/Views/NetworkSelector/NetworkSelector.tsx <br>
-수정할 줄: 214번 줄, 293번 줄
-
-내용: chainId: '0x1' -> chainId: '0xe2c3'
-
-vim app/core/Engine/controllers/transaction-controller/data-helpers.ts <br>
-수정할 줄: 26번 줄
-
-내용: chainId: '0x1' -> chainId: '0xe2c3'
-
-<br>
-성공
 <br>
