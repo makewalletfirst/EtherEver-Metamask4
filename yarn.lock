@@ -36327,7 +36327,7 @@ __metadata:
     react-native-release-profiler: "npm:^0.4.0"
     react-native-render-html: "npm:^6.3.4"
     react-native-safe-area-context: "npm:^5.4.0"
-    react-native-screens: "npm:3.37.0"
+    react-native-screens: "npm:4.18.0"
     react-native-sensors: "npm:5.3.0"
     react-native-share: "npm:7.3.7"
     react-native-size-matters: "npm:0.4.0"
@@ -41237,16 +41237,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-screens@npm:3.37.0":
-  version: 3.37.0
-  resolution: "react-native-screens@npm:3.37.0"
+"react-native-screens@npm:4.18.0":
+  version: 4.18.0
+  resolution: "react-native-screens@npm:4.18.0"
   dependencies:
     react-freeze: "npm:^1.0.0"
     warn-once: "npm:^0.1.0"
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: 10/2cf1b3c850598660fb2d50bf2aa227f1c3f0bb5c41689d4d2782d95267e9e99a46b067f85610902c6cae31fcf2e8629e14769f081557864b57c2c7ee6587b684
+  checksum: 10/456c18069ab8fee1d6c341d6bd13cba477fcda10f266844fb5f486ad5ac2c7336a5181956e261be010318be53585d4a72fd9bd00289117bbbdea681309de21f4
   languageName: node
   linkType: hard
 
