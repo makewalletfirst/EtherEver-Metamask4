@@ -2112,13 +2112,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@craftzdog/react-native-buffer@npm:^6.0.5, @craftzdog/react-native-buffer@npm:^6.1.0":
+"@craftzdog/react-native-buffer@npm:^6.0.5":
   version: 6.1.0
   resolution: "@craftzdog/react-native-buffer@npm:6.1.0"
   dependencies:
     ieee754: "npm:^1.2.1"
     react-native-quick-base64: "npm:^2.0.5"
   checksum: 10/78ab30297432f0f24445417ceefde6f2e8f0596f7fe6ff44d9bc0b509f4aaa5e141c23e1aca9db25678abd306802a07ed8bc3690f4b1a4375ac67a1391c1a224
+  languageName: node
+  linkType: hard
+
+"@craftzdog/react-native-buffer@npm:^6.1.1":
+  version: 6.1.1
+  resolution: "@craftzdog/react-native-buffer@npm:6.1.1"
+  dependencies:
+    ieee754: "npm:^1.2.1"
+    react-native-quick-base64: "npm:^2.2.2"
+  checksum: 10/a78a74d8c63597f601b79e3b14e809508d481a407b35041bd46e50a245f4c98382af574d2e9f01adaa77e26a5683ec2c47c7bf2392b49afeabdc37a1a5bfbac5
   languageName: node
   linkType: hard
 
@@ -35936,7 +35946,7 @@ __metadata:
     "@config-plugins/detox": "npm:^9.0.0"
     "@consensys/native-ramps-sdk": "npm:2.1.6"
     "@consensys/on-ramp-sdk": "npm:2.1.12"
-    "@craftzdog/react-native-buffer": "npm:^6.1.0"
+    "@craftzdog/react-native-buffer": "npm:^6.1.1"
     "@cucumber/message-streams": "npm:^4.0.1"
     "@cucumber/messages": "npm:^22.0.0"
     "@ethersproject/abi": "npm:^5.7.0"
@@ -41142,6 +41152,16 @@ __metadata:
     react: "*"
     react-native: "*"
   checksum: 10/8f6c099ac628e60a757f3a6835b3cd7e1dc4d987c46c42cb17cf2688d5ce38a50913f305fa036a010d103de6259fdc6d524de905760ca60e49d177dafdf03d53
+  languageName: node
+  linkType: hard
+
+"react-native-quick-base64@npm:^2.2.2":
+  version: 2.2.2
+  resolution: "react-native-quick-base64@npm:2.2.2"
+  peerDependencies:
+    react: "*"
+    react-native: "*"
+  checksum: 10/aeebf6f520830dc042201e2a72a381fb29d1376fe0acdf9e266c8a7e3499f45534b11b27b2241bf6cf007ff82874b6def9fa52d62f0027953fc2e6f8d0009266
   languageName: node
   linkType: hard
 
